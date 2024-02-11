@@ -1,0 +1,180 @@
+*{
+  box-sizing: border-box;
+  color: black;
+  margin: 0;
+  padding: 2px;
+}
+
+html, body{
+margin: 0;
+  padding: 0;
+
+}
+
+.nav li{
+  display: inline;
+}
+
+.nav a {
+  margin: 0;
+  padding: 5px;
+  color: white;
+  transition: background-color 0.3s ease;
+  text-decoration-line: none;
+}
+
+nav a:hover{
+ color: orangered;
+}
+
+header h1{
+  margin: 0;
+  padding: 5px;
+  color: white;
+  transition: background-color 0.3s ease;
+  text-decoration-line: none;
+}
+
+ header h1:hover{
+  color: orangered;
+}
+
+
+.main-header{
+  background-color:black;
+  background-size: cover; /* cover: expand the wide as it can and tall as it can  */
+
+}
+.even-image{
+  width: 30px;
+  height: 30px;
+}
+
+.main-nav{
+  text-align: right;
+  font-size: 1.1em;
+  font-weight: lighter;
+  border-bottom: 1px solid black;
+}
+
+.RC{
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.container {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header-img {
+  width: 100%;
+  height: auto;
+  background-size: cover;
+}
+
+.header {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white; /* text is visible on the image */
+  text-align: center;
+}
+
+.head {
+  font-size: 20px;
+  margin-top: 10px;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white; /* text is visible on the image */
+  text-align: center;
+}
+
+.Started, .More {
+  margin-top: 20px;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.Started a, .More a {
+  text-decoration: none;
+  padding: 10px 20px;
+  background-color: orangered;
+  color: white;
+  border-radius: 5px;
+}
+.Maps{
+  width:1250px;
+  height: 500px;
+  border-radius: 10px;
+  border-left-width: 10px;
+  border-right-width: 10px;
+}
+
+/*styling the container*/
+.container{
+  background-color: black;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 16px;
+  color: black;
+}
+.form-gr {
+  margin-bottom: 15px;
+}
+
+.form-gr label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight:bold;
+  color: white;
+}
+
+.form-gr input {
+  width:100%;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  color: black;
+}
+
+.form-gr textarea {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid white;
+  border-radius: 4px;
+  color: black;
+
+
+}
+
+.submit-btn {
+  background-color: green;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+}
+
+.footer{
+  background-color: grey;
+  color: black;
+  text-align: center;
+  margin: 10px;
+  padding: 20px;
+  bottom: 0;
+  width: 100%;
+}
+
